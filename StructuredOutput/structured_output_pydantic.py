@@ -1,9 +1,10 @@
 from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 from langchain_core.messages import SystemMessage, HumanMessage
-from typing import TypedDict
+from pydantic import BaseModel
+
 
 llm = HuggingFacePipeline.from_model_id(
-    model_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    model_id="microsoft/Phi-3-mini-4k-instruct",
     task="text-generation",
     pipeline_kwargs={
         "temperature": 0.5,
@@ -13,7 +14,7 @@ llm = HuggingFacePipeline.from_model_id(
 
 model = ChatHuggingFace(llm=llm)
 
-class Schema(TypedDict):
+class Schema(BaseModel):
     reply: str
     sentiment: str
 
