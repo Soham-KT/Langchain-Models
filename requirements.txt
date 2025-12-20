@@ -1,6 +1,7 @@
 # LangChain Core
 langchain
 langchain-core
+langchain-community
 
 # Ollama Integration
 langchain-ollama
@@ -27,3 +28,6 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# To load PDFs in code
+pypdf
