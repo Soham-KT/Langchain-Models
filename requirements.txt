@@ -34,6 +34,3 @@ scikit-learn
 
 # To load PDFs in code
 pypdf
-
-# vector db
-langchain_chroma
