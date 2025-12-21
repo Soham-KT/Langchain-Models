@@ -34,3 +34,9 @@ scikit-learn
 
 # To load PDFs in code
 pypdf
+
+# special libraries for RAG model
+youtube-transcript-api
+
+# vector store
+faiss-gpu
