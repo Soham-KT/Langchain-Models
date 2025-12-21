@@ -3,6 +3,9 @@ langchain
 langchain-core
 langchain-community
 
+# for text splitting
+langchain-text-splitters
+
 # Ollama Integration
 langchain-ollama
 
