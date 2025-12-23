@@ -40,3 +40,7 @@ youtube-transcript-api
 
 # vector store
 faiss-gpu
+
+# tools
+duckduck-go
+langchain-experimental
